@@ -23,6 +23,8 @@ npx cap add android
 npm run android:sync
 ```
 
+The GitHub Actions workflow `.github/workflows/android.yml` builds a debug APK on pushes to `main`. Download the generated APK from the workflow run's Artifacts section. The debug APK is intended for installation and testing, not for Play Store publication.
+
 Application ID: `com.cardstudio.invitation`
 
 ## Current foundation
