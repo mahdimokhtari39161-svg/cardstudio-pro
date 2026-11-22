@@ -27,6 +27,10 @@ The GitHub Actions workflow `.github/workflows/android.yml` builds a debug APK o
 
 Application ID: `com.cardstudio.invitation`
 
+## Floot + GitHub development
+
+Floot is used as a companion prototyping environment; this repository remains the source of truth for the installable Android app and GitHub Pages release. Floot does not currently sync directly with GitHub. See [FLOOT_GITHUB_WORKFLOW.md](./FLOOT_GITHUB_WORKFLOW.md) for the reviewed feature-handoff process and platform limits.
+
 ## Current foundation
 
 - Responsive design workspace
